@@ -461,7 +461,7 @@ edump () {
                                 break
                              ;;
                              *) echo -en "\n${O}skip to next site${N}";;
-                             break
+                                break
                              trap - INT
                              break 4
                           else
