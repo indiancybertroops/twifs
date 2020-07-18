@@ -146,19 +146,19 @@ fi
 banner() {
   echo -e "    
                         \033[7;36mtwifs v.1 PRO${N}
-                          /      ${N}\033[3;35msqli tools evolution${N}
-         ░░░░░░░▄█▄▄▄█▄  /       ${N}|==┣▇▇▇▇▇▇═─-SQl-i${N}
-         ▄▀░░░░▄▌─▄─▄─▐▄ ░░░▀▄   ${R}VIVEK CH${M}&${N}TEAM ICT${N}
-         █▄▄█░░▀▌─▀─▀─▐▀░░█▄▄█   ${O}./TWIF'${O}s${N} 
-         ░▐▌░░░░▀▀███▀▀░░░░▐▌    ${R}lead by -KriShna SHARMA${R}
-         ████░▄█████████▄░████
+                          /      ${N}\033[3;35mMedicine for Sql Fever${N}
+         ▄█▄▄▄▄▄█▄█▀█▀ /       ${N} -─═▇▇▇▇▇▇|==┣ SQL MEDICINE${N}
+        █▄▌TEAM ICT▐▄█    ${R}CH4uDh4Ry CH${M}&${N}TEAM ICT${N}
+          ▌TEAM ICT▄▐▀   ${O}./TWIF'${O}s${N} 
+          ▀███▀▀▄█▀▀ ${R}lead by -K.SHARMA${R}
+        █▀▀█▀████████▀▀
         "
 }
 msg() {
   echo -e "${O}        +──────────────────────────────────────────────+
                      ${N}\033[2;36m\033[2m SQLI TOOLS EVOLUTION ${N}${O}${N}   
             \033[2;32mFast Automatic Sql injection, SQLi Dumper 
-             URL Fuzzer, Dork Tools & cracking tools  
+             URL Fuzzer, Dork Tools &  hash And othet cracking tools  
                        - sqli never die -             
        ${O} +──────────────────────────────────────────────+
        " 
@@ -290,7 +290,7 @@ for admin in $(cat $panel_admin | and 's/\r$//' | tr -d "\0")
 done
 trap - INT
 if [[ -f .live ]];then
-   echo -e "${N}${BL}mengumpulkan login yang di temukan"
+   echo -e "${N}${BL}collecting logins Got In this"
    for F in `cat output/$dir/admin-login.txt 2>/dev/null | sort -u | uniq -i`;do echo -e "\x1b[0m${N}[${O}*${N}] ${G}FOUND ${N}:\033[2m $F";done
    echo -e "${N}[${R}+${N}] Done.....\n[${G}+${N}] Result login found saved ${G}output/$dir/admin-login.txt${N}"
    echo -e "[${G}+${N}] Result Total : ${G}\033[2m$(cat .live 2>/dev/null | wc -l) Login page${N}"
@@ -723,7 +723,7 @@ fi
 }
 
 gen() {
-  echo -e "                |\033[7;32m Dork generator by TEAmict ${N}|\n\n${O}cth: product cart buy${N}"
+  echo -e "                |\033[7;32m Dork generator by Team IcT ${N}|\n\n${O}cth: product cart buy${N}"
   echo -n "Enter Keyword: "
   read key
   echo -e "${O}cth: .php .html .aspx${N}"
