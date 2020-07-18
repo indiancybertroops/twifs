@@ -8,7 +8,7 @@ export LANG=en_AU.UTF-8
 #IN MADE OPEN SOURCE, IN ORDER TO BE ADJUSTED WITH EACH NEEDS
 #I AM NOT PROHIBITED TO NGEDIT ANY QUERY, THAT YOU CAN ALSO WORK
 #/////////////////////////////////////////////////////////////////////////
-#//Author: by C#0uD#4rY V!V3!< 51ng# T30t14 & TEAM ICT                  //
+#//Author: by C#0uD#4rY 54H4B & TEAM ICT                  //
 #//recode > reupload ?? please include the name of the author           //
 #//Warning Warning!!,not for the wrong use,especially for reupload      //
 #//Made: 21- may - 2020                                                 //
